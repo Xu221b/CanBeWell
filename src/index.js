@@ -14,4 +14,4 @@ import IdleTimer from './IdleTimer';
 
 //firebase.initializeApp(DB_CONFIG);
 //ReactDOM.render(<Router routes={routes} />, document.getElementById('root'));
-ReactDOM.render(<CookiesProvider><IdleTimer /></CookiesProvider>, document.getElementById('root'));
+ReactDOM.render(<CookiesProvider><Timer /></CookiesProvider>, document.getElementById('root'));
