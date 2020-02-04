@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import './index.css';
 import { CookiesProvider } from 'react-cookie';
-import IdleTimer from './IdleTimer';
+import MonitorTimer from './MonitorTimer';
 //import routes from './routes';
 //import registerServiceWorker from './registerServiceWorker';
 
@@ -14,4 +14,4 @@ import IdleTimer from './IdleTimer';
 
 //firebase.initializeApp(DB_CONFIG);
 //ReactDOM.render(<Router routes={routes} />, document.getElementById('root'));
-ReactDOM.render(<CookiesProvider><Timer /></CookiesProvider>, document.getElementById('root'));
+ReactDOM.render(<CookiesProvider><MonitorTimer /></CookiesProvider>, document.getElementById('root'));

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import IdleTimer from 'react-idle-timer'
 import LandingPage from './Landingpage';
  
-export default class Timer extends Component {
+export default class MonitorTimer extends Component {
   constructor(props) {
     super(props)
     this.idleTimer = null

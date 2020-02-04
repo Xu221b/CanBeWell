@@ -14,7 +14,7 @@ class Tests extends React.Component {
     super(props);
     this.state = {
       isOpen: false,
-      TestList: this.props.userConfig.language == "french" ? TestListFR : TestListEN
+      TestList: this.props.userConfig.language == "english" ? TestListEN : TestListFR
     };
   }
 
