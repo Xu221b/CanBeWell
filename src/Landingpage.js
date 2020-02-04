@@ -1,7 +1,6 @@
 import React from 'react';
 
 import App from './App';
-import { PageView, initGA } from './Analytics/Tracking';
 import './LandingPage.css';
 import calllogo from './assets/Logos/logo_03-02.png';
 import Card from 'react-bootstrap/Card';
@@ -29,10 +28,7 @@ class LandingPage extends React.Component {
     this.setState({ language: "french" })
     localStorage.setItem("app_language", this.state.language);
   }
-  componentDidMount() {
-    initGA('UA-151893001-1');
-    PageView();
-  }
+  
 
   render() {
     // Render nothing if the "show" prop is false
